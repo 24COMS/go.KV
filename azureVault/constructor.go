@@ -1,7 +1,6 @@
 package azureVault
 
 import (
-	"24coms-dialog/KV"
 	"fmt"
 	"net/http"
 	"net/url"
@@ -9,6 +8,7 @@ import (
 	"sync"
 
 	"github.com/24COMS/go.isempty"
+	"github.com/24COMS/go.KV"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

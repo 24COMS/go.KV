@@ -3,7 +3,6 @@ package azureVault
 import (
 	"encoding/json"
 	"net/http"
-
 	"time"
 
 	"github.com/matryer/try"
